@@ -20,5 +20,20 @@ public void steer(int direction)
 {
     this.currentDirection+=direction;
     System.out.println("Steering at "+currentDirection+"degrees");
-    
+
 }
+public void move(int velocity,int direction){
+
+    currentDirection=direction;
+    currentVelocity=velocity;
+    System.out.println("Vehicle is moving at"+currentVelocity+"in the direction"+currentDirection);
+}
+public String getName()
+{
+ return  name;
+}
+
+    public String getSize()
+    {
+        return  size;
+    }
