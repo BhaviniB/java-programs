@@ -6,7 +6,7 @@ public class Vehicle {
     private int currentVelocity;
     private int currentDirection;
 
-}
+
 
 public Vehicle(String name, String  size)
 {
@@ -37,3 +37,6 @@ public String getName()
     {
         return  size;
     }
+}
+
+
