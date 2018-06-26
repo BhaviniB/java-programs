@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cbe554f-386e-42d1-89c5-42b1ee5991e0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Car.java" afterPath="$PROJECT_DIR$/src/Car.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Outlander.java" afterPath="$PROJECT_DIR$/src/Outlander.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Vehicle.java" afterPath="$PROJECT_DIR$/src/Vehicle.java" />
-    </list>
+    <list default="true" id="4cbe554f-386e-42d1-89c5-42b1ee5991e0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -147,7 +143,7 @@
     <property name="settings.editor.splitter.proportion" value="0.22941177" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ds-algos/arrays-big-o" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -255,12 +251,12 @@
       <option name="presentableId" value="Default" />
       <updated>1529948686886</updated>
       <workItem from="1529948697021" duration="2532000" />
-      <workItem from="1530014598362" duration="1832000" />
+      <workItem from="1530014598362" duration="1914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4364000" />
+    <option name="totallyTimeSpent" value="4446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
