@@ -12,7 +12,17 @@ private int currentGear;
         this.doors = doors;
         this.gears = gears;
         this.isManual = isManual;
+        this.currentGear=1;
     }
 
+    public void changeGear(int currentGear) {
+        this.currentGear = currentGear;
 
+        System.out.print("Car.setCurrentGear() changed to"+this.currentGear+"gear");
+    }
+
+    public void changeVelocity(int speed,int direction){
+        move(speed,direction);
+        System.out.println("changeVelocity():velocity "+speed+"direction"+direction);
+    }
 }

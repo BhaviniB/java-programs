@@ -37,6 +37,12 @@ public String getName()
     {
         return  size;
     }
+
+public void stop()
+{
+
+    this.currentVelocity=0;
+}
 }
 
 
