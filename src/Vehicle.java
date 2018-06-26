@@ -38,7 +38,15 @@ public String getName()
         return  size;
     }
 
-public void stop()
+    public int getCurrentVelocity() {
+        return currentVelocity;
+    }
+
+    public int getCurrentDirection() {
+        return currentDirection;
+    }
+
+    public void stop()
 {
 
     this.currentVelocity=0;
