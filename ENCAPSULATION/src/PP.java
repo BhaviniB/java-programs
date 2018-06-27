@@ -1,16 +1,20 @@
-public class Printer11 {
+package com.company;
+
+
+
+public class PP {
 
     private int tonerLevel;
     private int numberOfPagesPrinted;
     private boolean isDuplex;
 
-    public Printer11(int tonerLevel, boolean isDuplex) {
+    public PP(int tonerLevel, boolean isDuplex) {
 
         if(tonerLevel<-1&& tonerLevel<=100){
-        this.tonerLevel = tonerLevel;}
+            this.tonerLevel = tonerLevel;}
         else  {
             this.tonerLevel=-1;
-              }
+        }
         this.numberOfPagesPrinted = numberOfPagesPrinted;
         this.isDuplex = isDuplex;
     }
@@ -38,16 +42,16 @@ public class Printer11 {
     public  int printPages(int pages){
 
 
-    int pagesToPrint=pages;
-    if(this.isDuplex){
-        pagesToPrint/=2;
-        System.out.print("printing in duplex mode");
+        int pagesToPrint=pages;
+        if(this.isDuplex){
+            pagesToPrint/=2;
+            System.out.print("printing in duplex mode");
 
 
-    }
+        }
 
-    this.numberOfPagesPrinted+=pagesToPrint;
-    return pagesToPrint;
+        this.numberOfPagesPrinted+=pagesToPrint;
+        return pagesToPrint;
     }
 
     public int getNumberOfPagesPrinted() {
