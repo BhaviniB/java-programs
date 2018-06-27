@@ -1,5 +1,4 @@
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
-
+package com.company;
 public class Hamburger {
 
     private String name;
