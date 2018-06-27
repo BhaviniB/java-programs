@@ -24,4 +24,27 @@ public class HealthyBurger extends Hamburger {
         this.healthyExtra2Name=name;
         this.healthyExtra2Price=cost;
     }
+
+    @Override
+    public double automiseHamburger() {
+        double hamburgerPrice=super.automiseHamburger();
+
+
+        if(this.healthyExtra1Name!=null){
+
+
+            hamburgerPrice+=healthyExtra1Price;
+            System.out.println("Added the item "+this.healthyExtra1Name+"price"+this.healthyExtra1Price);
+
+        }
+
+        if(this.healthyExtra2Name!=null){
+
+
+            hamburgerPrice+=healthyExtra2Price;
+            System.out.println("Added the item "+this.healthyExtra2Name+"price"+this.healthyExtra2Price);
+
+        }
+    return hamburgerPrice;
+    }
 }

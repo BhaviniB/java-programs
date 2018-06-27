@@ -15,6 +15,10 @@ public class Main {
         price=ham.automiseHamburger();
         System.out.print(price);
         HealthyBurger heal=new HealthyBurger("white",2.22);
+        heal.automiseHamburger();
+        heal.addHealthyAddition1("cheese",0.22);
+        price=heal.automiseHamburger();
+        System.out.print(price);
 	// write your code here
     }
 }
