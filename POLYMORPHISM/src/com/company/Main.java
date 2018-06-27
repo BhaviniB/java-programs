@@ -7,6 +7,10 @@ public class Main {
          System.out.println(car.accelerate());
         System.out.println(car.brake());
         System.out.println(car.startEngine());
+        Scorpio S=new Scorpio(3,"Scorp");
+        System.out.println(S.accelerate());
+        System.out.println(S.brake());
+        System.out.println(S.startEngine());
 
     }
 }
