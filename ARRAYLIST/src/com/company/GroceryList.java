@@ -7,7 +7,7 @@ public class GroceryList {
 
 
     private ArrayList<String> groceryList=new ArrayList<>();
-    public void addItem(String item){
+    public void addGroceryItem(String item){
 
 
         groceryList.add(item);
@@ -21,20 +21,20 @@ public class GroceryList {
             System.out.println( groceryList.get(i));
         }
     }
-    public void modifyItem(int positon,String newItem){
+    public void modifyGroceryItem(int positon,String newItem){
 
         groceryList.set(positon,newItem);
         System.out.println("item"+positon+1+"modified");
     }
 
-    public void removeItem(int position){
+    public void removeGroceryItem(int position){
         String theItem=groceryList.get(position);
 
 
         groceryList.remove(position);
     }
 
-    public  String findItem(String searchItem){
+    public  String findGroceryItem(String searchItem){
 
 
         //boolean exists=groceryList.contains(searchItem);
