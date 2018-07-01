@@ -1,3 +1,6 @@
+package com.company;
+import com.company.Customer;
+
 import java.util.ArrayList;
 
 public class Branch {

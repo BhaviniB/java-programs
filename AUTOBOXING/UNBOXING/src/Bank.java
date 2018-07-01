@@ -1,3 +1,7 @@
+package com.company;
+import com.company.Branch;
+import com.company.Customer;
+
 import java.util.ArrayList;
 
 public class Bank {
