@@ -19,5 +19,11 @@ private ArrayList<Double>transactions;
     }
 
 
+    public String getName() {
+        return name;
+    }
 
+    public ArrayList<Double> getTransactions() {
+        return transactions;
+    }
 }
