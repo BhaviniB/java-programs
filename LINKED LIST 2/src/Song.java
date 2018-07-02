@@ -1,3 +1,4 @@
+package com.company;
 public class Song {
 
     private String title;
@@ -17,7 +18,7 @@ public class Song {
     @Override
     public String toString() {
         return title+":"+this.duration; //print out the contents of the class's objects
-        
+
 
     }
 }
