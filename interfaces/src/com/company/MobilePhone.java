@@ -1,24 +1,31 @@
 package com.company;
 
-public class DeskPhone implements ITelephone
+public class MobilePhone implements ITelephone
 {
-private int myNumber;
-private boolean isRinging;
+    private int myNumber;
+    private boolean isRinging;
+    private boolean isOn=false;
 
-    public DeskPhone(int myNumber, boolean isRinging) {
+
+    public MobilePhone(int myNumber, boolean isRinging) {
         this.myNumber = myNumber;
         this.isRinging = isRinging;
     }
 
     @Override
     public void powerOn() {
-        System.out.println("NO ACTION TAKEN. THE DESKTOP DOES NOT HAVE A POWER BUTTON");
+        isOn=true;
+        System.out.println("ON NOW");
     }
 
     @Override
     public void dial(int phoneNumber) {
-        System.out.println("now ringing"+phoneNumber);
+        if (isOn) {
+            System.out.println("now ringing" + phoneNumber);
 
+        } else {
+            System.out.println("off");
+        }
     }
 
     @Override
@@ -33,17 +40,20 @@ private boolean isRinging;
 
     @Override
     public boolean callPhone(int phoneNumber) {
-        if(phoneNumber==myNumber){
+        if(phoneNumber==myNumber&& isOn){
+
             isRinging=true;
             System.out.println("ring ring");
 
         }else isRinging=false;
         return isRinging;
 
-
+    }
 
     @Override
     public boolean isRinging() {
         return isRinging;
     }
 }
+
+
