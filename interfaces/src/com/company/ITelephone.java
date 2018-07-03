@@ -6,6 +6,6 @@ public interface ITelephone{
     public void answer();
     public boolean callPhone(int phoneNumber);
     public boolean isRinging();
-       
+
 
 }
