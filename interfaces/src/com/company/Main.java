@@ -9,7 +9,9 @@ public class Main {
         bhavinisPhone.powerOn();
         bhavinisPhone.answer();
         bhavinisPhone.callPhone(4433);
-
+        bhavinisPhone=new MobilePhone(999,true);
+        bhavinisPhone.callPhone(33);
+        bhavinisPhone.answer();
 
 
     }

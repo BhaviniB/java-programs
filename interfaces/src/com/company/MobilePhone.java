@@ -40,17 +40,22 @@ public class MobilePhone implements ITelephone
 
     @Override
     public boolean callPhone(int phoneNumber) {
-        if(phoneNumber==myNumber&& isOn){
+        if (phoneNumber == myNumber && isOn) {
 
-            isRinging=true;
+            isRinging = true;
             System.out.println("ring ring");
 
-        }else isRinging=false;
-        return isRinging;
+        } else {
+            isRinging = false;
 
+            System.out.println("mobile phone on");
+
+        }
+        return isRinging;
     }
 
-    @Override
+
+        @Override
     public boolean isRinging() {
         return isRinging;
     }
