@@ -16,8 +16,11 @@ public class Main {
         System.out.println(tim);
         tim.setWeapon("Stormbringer");
         saveObject(tim);
-        loadObject(tim);
+        //loadObject(tim);
         System.out.println(tim);
+        ISaveable werewolf = new Monster("Werewolf", 3, 4);
+        System.out.println(((Monster) werewolf).getStrength());
+        saveObject(werewolf);
 
     }
 
@@ -51,7 +54,7 @@ public class Main {
     }
 
     public static void saveObject(ISaveable objectToSave) {
-        for(int i=0; i<objectToSave.write().size(); i++) {
+        for (int i = 0; i < objectToSave.write().size(); i++) {
             System.out.println("Saving " + objectToSave.write().get(i) + " to storage device");
         }
     }
@@ -62,28 +65,4 @@ public class Main {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
