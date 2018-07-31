@@ -8,6 +8,11 @@ public class Main {
 	dog.eat();
 
 
+	Parrot p=new Parrot("kokoo");
+	p.fly();
+	p.breathe();
+	p.eat();
+
 
 
     }
