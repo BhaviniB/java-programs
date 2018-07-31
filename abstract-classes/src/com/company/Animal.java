@@ -2,8 +2,8 @@
 
 public abstract class Animal {
     private String name;
-    public Animal() {
-        this.name=name;
+    public Animal(String name) {
+        this.name= this.name;
     }
     public abstract void eat();
     public abstract void breathe();
