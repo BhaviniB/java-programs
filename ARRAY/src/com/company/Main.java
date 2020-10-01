@@ -73,9 +73,7 @@ Read more: https://javarevisited.blogspot.com/2014/01/how-to-remove-duplicates-f
 
 
 import java.util.Arrays;
-/*
-  Java program to remove duplicates from this array. 
- */
+
 public class Main {
 
   
